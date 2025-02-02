@@ -7,7 +7,7 @@ const PokeMonMain = () => {
   const [pokeData, setPokeData] = useState([]);
   const [nextUrl, setNextUrl] = useState("");
 
-  // Call Pokemon API when page is load
+  // Call Pokemon API when page is load first time
   useEffect(() => {
     const url = "https://pokeapi.co/api/v2/pokemon/";
     axios
